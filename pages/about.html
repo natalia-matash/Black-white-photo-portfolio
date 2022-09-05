@@ -14,7 +14,7 @@
    <link rel="stylesheet" href="/src/style.css">
 </head>
 <body>
-   <header class="header">
+   <header class="header__about">
       <div class="header__items header__items_container">
         <div class="header__item">
           <div class="header__logo">
@@ -41,66 +41,46 @@
          </div>
       </div>
    </header>
+
    <main class="main">
-      <div class="main__background">
-         <img src="/img/background.png" alt="">
-      </div>
-      <div class="main__content">
-         <h2 class="main__subtitle">SHELLEY WHITE</h2>
-         <h1 class="main__title">PHOTOGRAPHY</h1>
-         <p class="main__text">Jlksdjlkjsdg dfgjksdlfj dfsgj;sodfh. Huhdksjlgug dfghoisdjf dagjkdf. JHkjhdskfjgs dsghjsfdk.</p>
-         <a class="main__btn" href="#" title="btn">GET STARTED</a>
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-lg-6 col-lg-6_img">
+               <div class="about__image">
+                  <img src="/img/bg.png" alt="">
+               </div>
+            </div>
+            <div class="col-lg-6">
+               <h2 class="about__subtitle">ABOUT ME</h2>
+               <h1 class="about__title">SHELLEY WHITE</h1>
+               <p class="about__text">Nisl faucibus quis urna nibh ut amet diam suscipit pretium massa sollicitudin in risus in sagittis nisl faucibus quis urna nibh ut amet diam suscipit pretium massa, sollicitudin in risus in. Sagittis.</p>
+               <div class="icons">
+                     <i class="fa-brands fa-square-facebook"></i>
+                     <i class="fa-brands fa-instagram"></i>
+                     <i class="fa-brands fa-invision"></i>
+               </div>
+               <div class="about__other">
+                  <div class="other__text">MY CAMERA</div>
+                  <img src="/img/row.png" alt="">
+               </div>
+               <div class="about__button">
+               <a class="about__btn" href="#" title="btn">CONTACT ME</a>
+            </div>
+            </div>
+         </div>
       </div>
    </main>
-   <section class="gallery">
-      <div class="section__container">
-         <div class="gallery__photos">
-            <div class="row row__first">
-               <div class="col colon col_row11">
-                  <img src="/img/photos/row11.png" alt="">
-               </div>
-               <div class="col colon col_row12">
-                  <img src="/img/photos/row12.png" alt="">
-               </div>
-               <div class="col colon col_row13">
-                  <img src="/img/photos/row13.png" alt="">
-               </div>
+   <section class="section__photos">
+      <div class="photos__container">
+         <div class="row">
+            <div class="col-md-4 colonk">
+               <img src="/img/photos/row11.png" alt="">
             </div>
-
-            <div class="row row__second">
-               <div class="col colon col_row21">
-                  <img src="/img/photos/row21.png" alt="">
-               </div>
-               <div class="col colon col_row22">
-                  <img src="/img/photos/row22.png" alt="">
-               </div>
-               <div class="col colon col_row23">
-                  <img src="/img/photos/row23.png" alt="">
-               </div>
+            <div class="col-md-4 colonk">
+               <img src="/img/photos/row12.png" alt="">
             </div>
-
-            <div class="row row__third">
-               <div class="col colon col_row31">
-                  <img src="/img/photos/row31.png" alt="">
-               </div>
-               <div class="col colon col_row32">
-                  <img src="/img/photos/row32.png" alt="">
-               </div>
-               <div class="col colon col_row33">
-                  <img src="/img/photos/row33.png" alt="">
-               </div>
-            </div>
-
-            <div class="row row__four">
-               <div class="col colon col_row41">
-                  <img src="/img/photos/row41.png" alt="">
-               </div>
-               <div class="col colon col_row42">
-                  <img src="/img/photos/row42.png" alt="">
-               </div>
-               <div class="col colon col_row43">
-                  <img src="/img/photos/row43.png" alt="">
-               </div>
+            <div class="col-md-4 colonk">
+               <img src="/img/photos/row13.png" alt="">
             </div>
          </div>
       </div>
@@ -109,7 +89,7 @@
       <div class="footer__container">
          <div class="footer__items">
             <div class="footer__logo">
-               <img src="img/Logo.png" alt="Logo">
+               <img src="/img/Logo.png" alt="Logo">
             </div>
             <div class="footer__icons">
                <i class="fa-brands fa-square-facebook"></i>
