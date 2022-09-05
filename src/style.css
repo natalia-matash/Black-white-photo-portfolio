@@ -754,3 +754,56 @@ body {
       margin-top: 30px;
    }
 }
+/*Contact================*/
+.in__touch {
+   margin-bottom: 110px;
+}
+.in__touch__title {
+   margin-top: 100px;
+   margin-bottom: 100px;
+   text-align: center;
+   font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 84px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.contact {
+   text-align: center;
+}
+.contact__name {
+   margin-bottom: 10px;
+   font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #F65282;
+
+}
+.contact__description {
+   margin-bottom: 40px;
+   font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+}
+.contact__icon {
+   font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 30px;
+margin-right: 10px;
+margin-bottom: 40px;
+}
+@media(max-width: 768px) {
+   .in__touch__title {
+      margin: 40px 0 40px;
+      font-size: 50px;
+   }
+}
