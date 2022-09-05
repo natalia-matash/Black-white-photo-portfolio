@@ -345,6 +345,7 @@ body {
    }
    .footer__items {
       align-items: center;
+      padding: 20px 0;
    }
    .footer__icons i:hover {
       font-size: 18px;
@@ -358,8 +359,12 @@ body {
       height: 100%;
       max-height: 150px;
       }
+   .footer__items {
+      padding: 15px 0;
+      align-items: center;
+   }
    .footer__icons {
-      font-size: 5px;
+      font-size: 12px;
    }
    .footer__text {
       font-size: 10px;
@@ -421,16 +426,17 @@ body {
    }
    .footer__items {
       align-items: center;
+      padding: 10px 0;
    }
    .footer__logo {
     display: none;
    }
    .footer__icons i {
-      font-size: 8px;
+      font-size: 10px;
       margin: 0 5px;
    }
    .footer__icons i:hover {
-      font-size: 12px;
+      font-size: 13px;
    }
    .footer__text {
       font-size: 10px;
